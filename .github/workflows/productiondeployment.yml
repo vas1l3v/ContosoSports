@@ -13,14 +13,14 @@ env:
   AZURE_WEBAPP_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Web'  
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 
-  AZURE_ADMINAPP_NAME: '<The name of the Call Center admin App Service in Azure>'
+  AZURE_ADMINAPP_NAME: 'contosocallcenterapp-343349'
   AZURE_ADMINAPP_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Admin'
 
-  AZURE_API_PAYMENT_NAME: '<The name of the Payments API App Service in Azure>'
+  AZURE_API_PAYMENT_NAME: 'paymentapiapp-343349'
   AZURE_API_PAYMENT_PROJECT_NAME: 'Contoso.Apps.PaymentGateway'
   AZURE_API_PAYMENT_PUBLISH_PROFILE: ${{ secrets.AZURE_API_PAYMENT_PUBLISH_PROFILE }}
 
-  AZURE_API_OFFERS_NAME: '<The name of the Offers API App Service in Azure>'
+  AZURE_API_OFFERS_NAME: 'offersapiapp-343349'
   AZURE_API_OFFERS_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Offers'
   AZURE_API_OFFERS_PUBLISH_PROFILE: ${{ secrets.AZURE_API_OFFERS_PUBLISH_PROFILE }}
 
