@@ -9,7 +9,7 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 # Be sure to replace the tokens in the AZURE_*_NAME variables with the names of the resources in Azure
 env:  
-  AZURE_WEBAPP_NAME: '<E-Commerce Web Application Name - named similar to contosoapp{random characters}>'
+  AZURE_WEBAPP_NAME: 'contosoapp343349'
   AZURE_WEBAPP_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Web'  
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 
